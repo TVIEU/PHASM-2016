@@ -1,3 +1,7 @@
+PHASM : Polarization from HAnle effect for Stellar Magnetism
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 PHASM-MI : Maps & Integrated
 
 Compute the polarization patterns and the evolution of the integrated signals in time.
