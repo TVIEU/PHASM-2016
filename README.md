@@ -13,8 +13,6 @@ PHASM-DB : DataBase
 
 Compute the database containing the evolution of the integrated Q/I, U/I and P/I signals day by day over the year 2016.
 
-TO BE UPLOADED
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PHASM-IP : Inversion Program
