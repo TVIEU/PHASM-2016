@@ -35,9 +35,9 @@
 
 ---------------------------------------------  ANOTHER STAR  -----------------------------------------------
 
-- We can quite easily modify the code to get the polarization signals from a different line or/and star.
+- You can quite easily modify the code to get the polarization signals from a different line or/and star.
 - Make sure this line/star is suitable for our approximations.
-- Modify the constants : ... in the first part of the c++ file.
+- Modify the constants in the first part of the c++ file.
 - Modify the arrays in the function "hydro".
 
 
