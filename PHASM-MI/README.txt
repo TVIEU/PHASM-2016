@@ -3,13 +3,13 @@
 ****  POLARIZATION FROM HANLE EFFECT FOR STELLAR MAGNETISM - DISTRIBUTION MAPS AND INTEGRATED SIGNALS  *****
 
 **********************          	    VIEU Thibault 2016		              **********************
-**********************  Instituto de Astrofisica de Canarias / Université Paris-Sud   **********************
+**********************  Instituto de Astrofisica de Canarias / UniversitÃ© Paris-Sud   **********************
 **********************               Contact : thibault.vieu@u-psud.fr                **********************
 ************************************************************************************************************
 
 ------------------------------------------------    INFOS    -----------------------------------------------
 
-- PHASM-MI computes the liner polarization signals emitted from a stellar atmosphere in the presence of a global dipolar magnetic field. 
+- PHASM-MI computes the linear polarization signals emitted from a stellar atmosphere in the presence of a global dipolar magnetic field. 
 - You can get the asymmetric distributions of the Hanle resolved signals on the projected disk or the integrated signatures, which are non-zero because of the asymmetry introduced by the global field.
 - The only free parameters in the .exe concern the geometry of the magnetic field (strength and inclination). If you want to change other parameters, you need to modify the c++ code, which is not hard since all the global physical constants are gathered at the very beginning.
 
