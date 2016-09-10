@@ -7,8 +7,6 @@ PHASM-MI : Maps & Integrated
 
 Compute the polarization patterns and the evolution of the integrated signals in time.
 
-TO BE UPLOADED
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 PHASM-DB : DataBase
