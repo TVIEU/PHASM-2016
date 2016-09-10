@@ -26,7 +26,7 @@ double u = 0.73; //limb-darkening coefficient 0.73
 double temperature = 4500; //temperature at height 400-500 km (typical for the emission of the Sr I line)
 
 double Ju = 1.; //total angular momentum of the upper level
-double gu = 1 ; //Landé factor of the upper level
+double gu = 1 ; //LandÃ© factor of the upper level
 double Jl = 0.; //total angular momentum of the lower level
 double A_ul = 2.01*1e8; //Einstein coefficient for spontaneous emission
 double nu = c_light/(4607*1e-10); //frequency corresponding to the transition
@@ -491,7 +491,7 @@ if (mode == 'm') //2D maps
     cout << "'d' ............  Signals along all directions (spread)" << endl;
     cin >> request; cout << endl;
 
-    int day; //angle which defined the reference polarization direction e1 and e2;
+    int day;
     cout << ">>>  Day ? (between 1 and 366)  <<<" << endl;
     cin >> day;
     cout << endl;
