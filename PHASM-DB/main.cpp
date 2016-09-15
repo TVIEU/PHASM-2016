@@ -26,7 +26,7 @@ double u = 0.73; //limb-darkening coefficient 0.73
 double temperature = 4500; //temperature at height 400-500 km (typical for the emission of the Sr I line)
 
 double Ju = 1.; //total angular momentum of the upper level
-double gu = 1 ; //Landé factor of the upper level
+double gu = 1 ; //LandÃ© factor of the upper level
 double Jl = 0.; //total angular momentum of the lower level
 double A_ul = 2.01*1e8; //Einstein coefficient for spontaneous emission
 double nu = c_light/(4607*1e-10); //frequency corresponding to the transition
@@ -521,8 +521,8 @@ int main()
     init_tab_rotation();
 
     //it is possible to change the steps here
-    double stepB = 20;
-    double steppsi = 90;
+    double stepB = 0.1;
+    double steppsi = 1;
     double Bmin=0,Bmax=20,psimin=0,psimax=90;
 
     int iB,ipsi;
