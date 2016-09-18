@@ -9,7 +9,7 @@
 using namespace std;
 
 double tab_exp_int[4][1001];
-double rotation_axis[365];
+double rotation_axis[366];
 
 //*********************************************************************************************************
 //******************** CONSTANTS, GLOBAL VARIABLES ********************************************************
@@ -441,7 +441,7 @@ void computing(double B_field, double psincl)
     //******************** COMPUTING **************************************************************************
     //*********************************************************************************************************
 
-    double h=1; int n_t = 365, i_t; double day;
+    double h=1; int n_t = 366, i_t; double day;
 
     std::stringstream fichier_i;
     fichier_i << "BDD/i/i_" << B_field << "_" << psincl*180/M_PI << ".txt";
